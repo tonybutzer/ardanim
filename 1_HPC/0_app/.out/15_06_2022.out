@@ -1,0 +1,420 @@
+Number of arguments: 2 arguments
+Argument List: ['anim.py', '15_06_2022']
+https://landsatlook.usgs.gov/stac-server
+landsat-c2ard-sr
+['landsat-c2l2-sr', 'landsat-c2l2-st', 'landsat-c2ard-st', 'landsat-c2l2alb-bt', 'landsat-c2l3-fsca', 'landsat-c2ard-bt', 'landsat-c2l1', 'landsat-c2l3-ba', 'landsat-c2l2alb-st', 'landsat-c2ard-sr', 'landsat-c2l2alb-sr', 'landsat-c2l2alb-ta', 'landsat-c2l3-dswe', 'landsat-c2ard-ta']
+                    id                                                                                                             title
+0      landsat-c2l2-sr                                                 Landsat Collection 2 Level-2 UTM Surface Reflectance (SR) Product
+1      landsat-c2l2-st                                                 Landsat Collection 2 Level-2 UTM Surface Temperature (ST) Product
+2     landsat-c2ard-st                       Landsat Collection 2 Analysis Ready Data (ARD) Level-2 UTM Surface Temperature (ST) Product
+3   landsat-c2l2alb-bt                         Landsat Collection 2 Level-2 Albers Top of Atmosphere Brightness Temperature (BT) Product
+4    landsat-c2l3-fsca                                          Landsat Collection 2 Level-3 Fractional Snow Covered Area (fSCA) Product
+5     landsat-c2ard-bt  Landsat Collection 2 Analysis Ready Data (ARD) Level-2 UTM Top of Atmosphere Brightness Temperature (BT) Product
+6         landsat-c2l1                                                                              Landsat Collection 2 Level-1 Product
+7      landsat-c2l3-ba                                                             Landsat Collection 2 Level-3 Burned Area (BA) Product
+8   landsat-c2l2alb-st                                              Landsat Collection 2 Level-2 Albers Surface Temperature (ST) Product
+9     landsat-c2ard-sr                       Landsat Collection 2 Analysis Ready Data (ARD) Level-2 UTM Surface Reflectance (SR) Product
+10  landsat-c2l2alb-sr                                              Landsat Collection 2 Level-2 Albers Surface Reflectance (SR) Product
+11  landsat-c2l2alb-ta                                    Landsat Collection 2 Level-2 Albers Top of Atmosphere (TA) Reflectance Product
+12   landsat-c2l3-dswe                                          Landsat Collection 2 Level-3 Dynamic Surface Water Extent (DSWE) Product
+13    landsat-c2ard-ta             Landsat Collection 2 Analysis Ready Data (ARD) Level-2 UTM Top of Atmosphere (TA) Reflectance Product
+None 2022-01-01/2022-12-31 99
+127 items found
+                            product  ... cloud_qa
+0  usgs-landsat-ard-collection02-sr  ...      NaN
+1  usgs-landsat-ard-collection02-sr  ...      NaN
+2  usgs-landsat-ard-collection02-sr  ...      NaN
+3  usgs-landsat-ard-collection02-sr  ...      NaN
+4  usgs-landsat-ard-collection02-sr  ...      NaN
+
+[5 rows x 17 columns]
+Index(['product', 'date', 'grid', 'h', 'v', 'cc', 'fill', 'thumbnail',
+       'reduced_resolution_browse', 'blue', 'green', 'red', 'nir08', 'swir16',
+       'swir22', 'atmos_opacity', 'cloud_qa'],
+      dtype='object')
+dict_keys(['datetime', 'platform', 'instruments', 'landsat:grid_horizontal', 'landsat:grid_vertical', 'landsat:grid_region', 'landsat:scene_count', 'eo:cloud_cover', 'landsat:cloud_shadow_cover', 'landsat:snow_ice_cover', 'landsat:fill', 'proj:epsg', 'proj:shape', 'proj:transform', 'proj:wkt2', 'created', 'updated'])
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20221228_20230107_02/LC08_CU_015006_20221228_20230107_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20221227_20230319_02/LC09_CU_015006_20221227_20230319_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20221226_20230116_02/LC08_CU_015006_20221226_20230116_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20221219_20230116_02/LC08_CU_015006_20221219_20230116_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20221218_20230320_02/LC09_CU_015006_20221218_20230320_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20221211_20230321_02/LC09_CU_015006_20221211_20230321_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20221210_20221223_02/LC08_CU_015006_20221210_20221223_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20221204_20230322_02/LC09_CU_015006_20221204_20230322_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20221203_20221216_02/LC08_CU_015006_20221203_20221216_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20221126_20221209_02/LC08_CU_015006_20221126_20221209_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20221125_20230323_02/LC09_CU_015006_20221125_20230323_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20221124_20221209_02/LC08_CU_015006_20221124_20221209_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20221118_20230325_02/LC09_CU_015006_20221118_20230325_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20221117_20221202_02/LC08_CU_015006_20221117_20221202_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20221116_20230325_02/LC09_CU_015006_20221116_20230325_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20221108_20221118_02/LC08_CU_015006_20221108_20221118_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20221102_20230326_02/LC09_CU_015006_20221102_20230326_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20221101_20221118_02/LC08_CU_015006_20221101_20221118_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20221031_20230326_02/LC09_CU_015006_20221031_20230326_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20221025_20221111_02/LC08_CU_015006_20221025_20221111_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20221024_20230327_02/LC09_CU_015006_20221024_20230327_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20221023_20221104_02/LC08_CU_015006_20221023_20221104_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20221017_20230328_02/LC09_CU_015006_20221017_20230328_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20221016_20221104_02/LC08_CU_015006_20221016_20221104_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20221015_20230329_02/LC09_CU_015006_20221015_20230329_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20221009_20221016_02/LC08_CU_015006_20221009_20221016_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20221008_20230329_02/LC09_CU_015006_20221008_20230329_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20221007_20221016_02/LC08_CU_015006_20221007_20221016_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20221001_20230330_02/LC09_CU_015006_20221001_20230330_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220930_20221009_02/LC08_CU_015006_20220930_20221009_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220929_20230401_02/LC09_CU_015006_20220929_20230401_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220923_20221002_02/LC08_CU_015006_20220923_20221002_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220922_20230331_02/LC09_CU_015006_20220922_20230331_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220921_20221002_02/LC08_CU_015006_20220921_20221002_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220915_20230401_02/LC09_CU_015006_20220915_20230401_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220914_20220925_02/LC08_CU_015006_20220914_20220925_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220913_20230401_02/LC09_CU_015006_20220913_20230401_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220907_20220917_02/LC08_CU_015006_20220907_20220917_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220906_20230402_02/LC09_CU_015006_20220906_20230402_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220905_20220917_02/LC08_CU_015006_20220905_20220917_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220830_20230403_02/LC09_CU_015006_20220830_20230403_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220829_20220913_02/LC08_CU_015006_20220829_20220913_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220828_20230403_02/LC09_CU_015006_20220828_20230403_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220822_20220927_02/LC08_CU_015006_20220822_20220927_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220821_20230404_02/LC09_CU_015006_20220821_20230404_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220813_20220827_02/LC08_CU_015006_20220813_20220827_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220812_20230406_02/LC09_CU_015006_20220812_20230406_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220805_20230407_02/LC09_CU_015006_20220805_20230407_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220804_20220821_02/LC08_CU_015006_20220804_20220821_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220729_20230410_02/LC09_CU_015006_20220729_20230410_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220728_20220809_02/LC08_CU_015006_20220728_20220809_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220727_20230410_02/LC09_CU_015006_20220727_20230410_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220721_20220805_02/LC08_CU_015006_20220721_20220805_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220720_20230410_02/LC09_CU_015006_20220720_20230410_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220719_20220729_02/LC08_CU_015006_20220719_20220729_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220713_20230409_02/LC09_CU_015006_20220713_20230409_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220712_20220725_02/LC08_CU_015006_20220712_20220725_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220711_20230411_02/LC09_CU_015006_20220711_20230411_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220705_20220725_02/LC08_CU_015006_20220705_20220725_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220704_20230411_02/LC09_CU_015006_20220704_20230411_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220703_20220711_02/LC08_CU_015006_20220703_20220711_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220627_20230412_02/LC09_CU_015006_20220627_20230412_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220626_20220709_02/LC08_CU_015006_20220626_20220709_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220625_20230412_02/LC09_CU_015006_20220625_20230412_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220619_20220704_02/LC08_CU_015006_20220619_20220704_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220618_20230414_02/LC09_CU_015006_20220618_20230414_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220617_20220702_02/LC08_CU_015006_20220617_20220702_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220611_20230420_02/LC09_CU_015006_20220611_20230420_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220610_20220620_02/LC08_CU_015006_20220610_20220620_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220602_20230416_02/LC09_CU_015006_20220602_20230416_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220601_20220613_02/LC08_CU_015006_20220601_20220613_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220525_20220606_02/LC08_CU_015006_20220525_20220606_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220524_20230420_02/LC09_CU_015006_20220524_20230420_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220518_20220528_02/LC08_CU_015006_20220518_20220528_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220517_20230420_02/LC09_CU_015006_20220517_20230420_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220516_20220528_02/LC08_CU_015006_20220516_20220528_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220510_20230420_02/LC09_CU_015006_20220510_20230420_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220509_20220522_02/LC08_CU_015006_20220509_20220522_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220508_20230420_02/LC09_CU_015006_20220508_20230420_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220501_20230421_02/LC09_CU_015006_20220501_20230421_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220423_20220501_02/LC08_CU_015006_20220423_20220501_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220422_20230422_02/LC09_CU_015006_20220422_20230422_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220416_20220423_02/LC08_CU_015006_20220416_20220423_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220415_20230429_02/LC09_CU_015006_20220415_20230429_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220414_20220423_02/LC08_CU_015006_20220414_20220423_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220408_20230429_02/LC09_CU_015006_20220408_20230429_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220407_20220415_02/LC08_CU_015006_20220407_20220415_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220331_20220409_02/LC08_CU_015006_20220331_20220409_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220329_20220409_02/LC08_CU_015006_20220329_20220409_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220322_20220402_02/LC08_CU_015006_20220322_20220402_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/etm/2022/CU/015/006/LE07_CU_015006_20220321_20220422_02/LE07_CU_015006_20220321_20220422_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220315_20220325_02/LC08_CU_015006_20220315_20220325_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/etm/2022/CU/015/006/LE07_CU_015006_20220314_20220415_02/LE07_CU_015006_20220314_20220415_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220313_20220325_02/LC08_CU_015006_20220313_20220325_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220307_20230429_02/LC09_CU_015006_20220307_20230429_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/etm/2022/CU/015/006/LE07_CU_015006_20220307_20220406_02/LE07_CU_015006_20220307_20220406_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220306_20220318_02/LC08_CU_015006_20220306_20220318_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220227_20220312_02/LC08_CU_015006_20220227_20220312_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220226_20230429_02/LC09_CU_015006_20220226_20230429_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/etm/2022/CU/015/006/LE07_CU_015006_20220226_20220328_02/LE07_CU_015006_20220226_20220328_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220225_20220312_02/LC08_CU_015006_20220225_20220312_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220219_20230430_02/LC09_CU_015006_20220219_20230430_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/etm/2022/CU/015/006/LE07_CU_015006_20220219_20220321_02/LE07_CU_015006_20220219_20220321_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220218_20220305_02/LC08_CU_015006_20220218_20220305_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220217_20230430_02/LC09_CU_015006_20220217_20230430_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/etm/2022/CU/015/006/LE07_CU_015006_20220217_20220319_02/LE07_CU_015006_20220217_20220319_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220211_20220226_02/LC08_CU_015006_20220211_20220226_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220209_20220226_02/LC08_CU_015006_20220209_20220226_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220203_20230502_02/LC09_CU_015006_20220203_20230502_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/etm/2022/CU/015/006/LE07_CU_015006_20220203_20220305_02/LE07_CU_015006_20220203_20220305_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220202_20220215_02/LC08_CU_015006_20220202_20220215_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220201_20230502_02/LC09_CU_015006_20220201_20230502_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/etm/2022/CU/015/006/LE07_CU_015006_20220201_20220303_02/LE07_CU_015006_20220201_20220303_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220126_20220208_02/LC08_CU_015006_20220126_20220208_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220125_20230503_02/LC09_CU_015006_20220125_20230503_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/etm/2022/CU/015/006/LE07_CU_015006_20220125_20220224_02/LE07_CU_015006_20220125_20220224_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220124_20220131_02/LC08_CU_015006_20220124_20220131_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220118_20230504_02/LC09_CU_015006_20220118_20230504_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/etm/2022/CU/015/006/LE07_CU_015006_20220118_20220217_02/LE07_CU_015006_20220118_20220217_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220117_20220127_02/LC08_CU_015006_20220117_20220127_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220116_20230504_02/LC09_CU_015006_20220116_20230504_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220110_20220126_02/LC08_CU_015006_20220110_20220126_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220109_20230508_02/LC09_CU_015006_20220109_20230508_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/etm/2022/CU/015/006/LE07_CU_015006_20220109_20220208_02/LE07_CU_015006_20220109_20220208_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC09_CU_015006_20220102_20230507_02/LC09_CU_015006_20220102_20230507_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/etm/2022/CU/015/006/LE07_CU_015006_20220102_20220201_02/LE07_CU_015006_20220102_20220201_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20220101_20220109_02/LC08_CU_015006_20220101_20220109_02_thumb_large.jpeg
+s3://usgs-landsat-ard/collection02/oli-tirs/2022/CU/015/006/LC08_CU_015006_20221228_20230107_02/LC08_CU_015006_20221228_20230107_02_thumb_large.jpeg
+. LC08_CU_015006_20221228_20230107_02_thumb_large.jpeg
+. LC08_CU_015006_20221228_20230107_02_thumb_large.jpeg
+. LC09_CU_015006_20221227_20230319_02_thumb_large.jpeg
+. LC08_CU_015006_20221226_20230116_02_thumb_large.jpeg
+. LC08_CU_015006_20221219_20230116_02_thumb_large.jpeg
+. LC09_CU_015006_20221218_20230320_02_thumb_large.jpeg
+. LC09_CU_015006_20221211_20230321_02_thumb_large.jpeg
+. LC08_CU_015006_20221210_20221223_02_thumb_large.jpeg
+. LC09_CU_015006_20221204_20230322_02_thumb_large.jpeg
+. LC08_CU_015006_20221203_20221216_02_thumb_large.jpeg
+. LC08_CU_015006_20221126_20221209_02_thumb_large.jpeg
+. LC09_CU_015006_20221125_20230323_02_thumb_large.jpeg
+. LC08_CU_015006_20221124_20221209_02_thumb_large.jpeg
+. LC09_CU_015006_20221118_20230325_02_thumb_large.jpeg
+. LC08_CU_015006_20221117_20221202_02_thumb_large.jpeg
+. LC09_CU_015006_20221116_20230325_02_thumb_large.jpeg
+. LC08_CU_015006_20221108_20221118_02_thumb_large.jpeg
+. LC09_CU_015006_20221102_20230326_02_thumb_large.jpeg
+. LC08_CU_015006_20221101_20221118_02_thumb_large.jpeg
+. LC09_CU_015006_20221031_20230326_02_thumb_large.jpeg
+. LC08_CU_015006_20221025_20221111_02_thumb_large.jpeg
+. LC09_CU_015006_20221024_20230327_02_thumb_large.jpeg
+. LC08_CU_015006_20221023_20221104_02_thumb_large.jpeg
+. LC09_CU_015006_20221017_20230328_02_thumb_large.jpeg
+. LC08_CU_015006_20221016_20221104_02_thumb_large.jpeg
+. LC09_CU_015006_20221015_20230329_02_thumb_large.jpeg
+. LC08_CU_015006_20221009_20221016_02_thumb_large.jpeg
+. LC09_CU_015006_20221008_20230329_02_thumb_large.jpeg
+. LC08_CU_015006_20221007_20221016_02_thumb_large.jpeg
+. LC09_CU_015006_20221001_20230330_02_thumb_large.jpeg
+. LC08_CU_015006_20220930_20221009_02_thumb_large.jpeg
+. LC09_CU_015006_20220929_20230401_02_thumb_large.jpeg
+. LC08_CU_015006_20220923_20221002_02_thumb_large.jpeg
+. LC09_CU_015006_20220922_20230331_02_thumb_large.jpeg
+. LC08_CU_015006_20220921_20221002_02_thumb_large.jpeg
+. LC09_CU_015006_20220915_20230401_02_thumb_large.jpeg
+. LC08_CU_015006_20220914_20220925_02_thumb_large.jpeg
+. LC09_CU_015006_20220913_20230401_02_thumb_large.jpeg
+. LC08_CU_015006_20220907_20220917_02_thumb_large.jpeg
+. LC09_CU_015006_20220906_20230402_02_thumb_large.jpeg
+. LC08_CU_015006_20220905_20220917_02_thumb_large.jpeg
+. LC09_CU_015006_20220830_20230403_02_thumb_large.jpeg
+. LC08_CU_015006_20220829_20220913_02_thumb_large.jpeg
+. LC09_CU_015006_20220828_20230403_02_thumb_large.jpeg
+. LC08_CU_015006_20220822_20220927_02_thumb_large.jpeg
+. LC09_CU_015006_20220821_20230404_02_thumb_large.jpeg
+. LC08_CU_015006_20220813_20220827_02_thumb_large.jpeg
+. LC09_CU_015006_20220812_20230406_02_thumb_large.jpeg
+. LC09_CU_015006_20220805_20230407_02_thumb_large.jpeg
+. LC08_CU_015006_20220804_20220821_02_thumb_large.jpeg
+. LC09_CU_015006_20220729_20230410_02_thumb_large.jpeg
+. LC08_CU_015006_20220728_20220809_02_thumb_large.jpeg
+. LC09_CU_015006_20220727_20230410_02_thumb_large.jpeg
+. LC08_CU_015006_20220721_20220805_02_thumb_large.jpeg
+. LC09_CU_015006_20220720_20230410_02_thumb_large.jpeg
+. LC08_CU_015006_20220719_20220729_02_thumb_large.jpeg
+. LC09_CU_015006_20220713_20230409_02_thumb_large.jpeg
+. LC08_CU_015006_20220712_20220725_02_thumb_large.jpeg
+. LC09_CU_015006_20220711_20230411_02_thumb_large.jpeg
+. LC08_CU_015006_20220705_20220725_02_thumb_large.jpeg
+. LC09_CU_015006_20220704_20230411_02_thumb_large.jpeg
+. LC08_CU_015006_20220703_20220711_02_thumb_large.jpeg
+. LC09_CU_015006_20220627_20230412_02_thumb_large.jpeg
+. LC08_CU_015006_20220626_20220709_02_thumb_large.jpeg
+. LC09_CU_015006_20220625_20230412_02_thumb_large.jpeg
+. LC08_CU_015006_20220619_20220704_02_thumb_large.jpeg
+. LC09_CU_015006_20220618_20230414_02_thumb_large.jpeg
+. LC08_CU_015006_20220617_20220702_02_thumb_large.jpeg
+. LC09_CU_015006_20220611_20230420_02_thumb_large.jpeg
+. LC08_CU_015006_20220610_20220620_02_thumb_large.jpeg
+. LC09_CU_015006_20220602_20230416_02_thumb_large.jpeg
+. LC08_CU_015006_20220601_20220613_02_thumb_large.jpeg
+. LC08_CU_015006_20220525_20220606_02_thumb_large.jpeg
+. LC09_CU_015006_20220524_20230420_02_thumb_large.jpeg
+. LC08_CU_015006_20220518_20220528_02_thumb_large.jpeg
+. LC09_CU_015006_20220517_20230420_02_thumb_large.jpeg
+. LC08_CU_015006_20220516_20220528_02_thumb_large.jpeg
+. LC09_CU_015006_20220510_20230420_02_thumb_large.jpeg
+. LC08_CU_015006_20220509_20220522_02_thumb_large.jpeg
+. LC09_CU_015006_20220508_20230420_02_thumb_large.jpeg
+. LC09_CU_015006_20220501_20230421_02_thumb_large.jpeg
+. LC08_CU_015006_20220423_20220501_02_thumb_large.jpeg
+. LC09_CU_015006_20220422_20230422_02_thumb_large.jpeg
+. LC08_CU_015006_20220416_20220423_02_thumb_large.jpeg
+. LC09_CU_015006_20220415_20230429_02_thumb_large.jpeg
+. LC08_CU_015006_20220414_20220423_02_thumb_large.jpeg
+. LC09_CU_015006_20220408_20230429_02_thumb_large.jpeg
+. LC08_CU_015006_20220407_20220415_02_thumb_large.jpeg
+. LC08_CU_015006_20220331_20220409_02_thumb_large.jpeg
+. LC08_CU_015006_20220329_20220409_02_thumb_large.jpeg
+. LC08_CU_015006_20220322_20220402_02_thumb_large.jpeg
+. LE07_CU_015006_20220321_20220422_02_thumb_large.jpeg
+. LC08_CU_015006_20220315_20220325_02_thumb_large.jpeg
+. LE07_CU_015006_20220314_20220415_02_thumb_large.jpeg
+. LC08_CU_015006_20220313_20220325_02_thumb_large.jpeg
+. LC09_CU_015006_20220307_20230429_02_thumb_large.jpeg
+. LE07_CU_015006_20220307_20220406_02_thumb_large.jpeg
+. LC08_CU_015006_20220306_20220318_02_thumb_large.jpeg
+. LC08_CU_015006_20220227_20220312_02_thumb_large.jpeg
+. LC09_CU_015006_20220226_20230429_02_thumb_large.jpeg
+. LE07_CU_015006_20220226_20220328_02_thumb_large.jpeg
+. LC08_CU_015006_20220225_20220312_02_thumb_large.jpeg
+. LC09_CU_015006_20220219_20230430_02_thumb_large.jpeg
+. LE07_CU_015006_20220219_20220321_02_thumb_large.jpeg
+. LC08_CU_015006_20220218_20220305_02_thumb_large.jpeg
+. LC09_CU_015006_20220217_20230430_02_thumb_large.jpeg
+. LE07_CU_015006_20220217_20220319_02_thumb_large.jpeg
+. LC08_CU_015006_20220211_20220226_02_thumb_large.jpeg
+. LC08_CU_015006_20220209_20220226_02_thumb_large.jpeg
+. LC09_CU_015006_20220203_20230502_02_thumb_large.jpeg
+. LE07_CU_015006_20220203_20220305_02_thumb_large.jpeg
+. LC08_CU_015006_20220202_20220215_02_thumb_large.jpeg
+. LC09_CU_015006_20220201_20230502_02_thumb_large.jpeg
+. LE07_CU_015006_20220201_20220303_02_thumb_large.jpeg
+. LC08_CU_015006_20220126_20220208_02_thumb_large.jpeg
+. LC09_CU_015006_20220125_20230503_02_thumb_large.jpeg
+. LE07_CU_015006_20220125_20220224_02_thumb_large.jpeg
+. LC08_CU_015006_20220124_20220131_02_thumb_large.jpeg
+. LC09_CU_015006_20220118_20230504_02_thumb_large.jpeg
+. LE07_CU_015006_20220118_20220217_02_thumb_large.jpeg
+. LC08_CU_015006_20220117_20220127_02_thumb_large.jpeg
+. LC09_CU_015006_20220116_20230504_02_thumb_large.jpeg
+. LC08_CU_015006_20220110_20220126_02_thumb_large.jpeg
+. LC09_CU_015006_20220109_20230508_02_thumb_large.jpeg
+. LE07_CU_015006_20220109_20220208_02_thumb_large.jpeg
+. LC09_CU_015006_20220102_20230507_02_thumb_large.jpeg
+. LE07_CU_015006_20220102_20220201_02_thumb_large.jpeg
+. LC08_CU_015006_20220101_20220109_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220423_20220501_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220921_20221002_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20221117_20221202_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220610_20220620_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220501_20230421_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220225_20220312_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220905_20220917_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LE07_CU_015006_20220321_20220422_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220727_20230410_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220617_20220702_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220906_20230402_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20221118_20230325_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20221015_20230329_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220721_20220805_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220804_20220821_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220812_20230406_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220509_20220522_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LE07_CU_015006_20220102_20220201_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LE07_CU_015006_20220219_20220321_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220719_20220729_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220126_20220208_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220524_20230420_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220116_20230504_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220703_20220711_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220217_20230430_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220704_20230411_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220218_20220305_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20221218_20230320_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20221125_20230323_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220315_20220325_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220117_20220127_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LE07_CU_015006_20220314_20220415_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220415_20230429_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220619_20220704_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220516_20220528_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220307_20230429_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220226_20230429_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220329_20220409_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220828_20230403_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20221227_20230319_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220929_20230401_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220110_20220126_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20221102_20230326_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220711_20230411_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220923_20221002_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220102_20230507_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LE07_CU_015006_20220125_20220224_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220907_20220917_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220313_20220325_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220601_20220613_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220227_20220312_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220729_20230410_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220109_20230508_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20221008_20230329_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220508_20230420_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20221108_20221118_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220602_20230416_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220821_20230404_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220209_20220226_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220118_20230504_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20221116_20230325_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LE07_CU_015006_20220118_20220217_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220517_20230420_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220306_20220318_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220407_20220415_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20221024_20230327_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220219_20230430_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LE07_CU_015006_20220307_20220406_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LE07_CU_015006_20220109_20220208_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220518_20220528_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220813_20220827_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220322_20220402_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220408_20230429_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20221211_20230321_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20221203_20221216_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220829_20220913_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20221007_20221016_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220611_20230420_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20221204_20230322_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220720_20230410_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20221017_20230328_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220712_20220725_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LE07_CU_015006_20220217_20220319_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220627_20230412_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LE07_CU_015006_20220226_20220328_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220525_20220606_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20221226_20230116_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220416_20220423_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20221124_20221209_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220830_20230403_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220331_20220409_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220913_20230401_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220101_20220109_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220124_20220131_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20221023_20221104_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20221025_20221111_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220201_20230502_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220202_20220215_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20221210_20221223_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20221009_20221016_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20221031_20230326_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220125_20230503_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220728_20220809_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220414_20220423_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220422_20230422_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20221001_20230330_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220805_20230407_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220618_20230414_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220713_20230409_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220705_20220725_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LE07_CU_015006_20220201_20220303_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220915_20230401_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220922_20230331_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20221126_20221209_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20221219_20230116_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20221228_20230107_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220930_20221009_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220625_20230412_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220914_20220925_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20221101_20221118_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220211_20220226_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LE07_CU_015006_20220203_20220305_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220822_20220927_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220203_20230502_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20220626_20220709_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC09_CU_015006_20220510_20230420_02_thumb_large.jpeg
+/efs/opt/tony/browse_15_06/LC08_CU_015006_20221016_20221104_02_thumb_large.jpeg
+Building the animation ...
+SUCCESS /efs/opt/tony/animations/2022_15_06.gif created!

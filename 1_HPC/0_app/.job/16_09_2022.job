@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH --account=butzer
+#SBATCH --time=00:20:00
+#SBATCH -N 1
+#SBATCH -n 1
+#SBATCH -c 1
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=butzer@contractor.usgs.gov
+#SBATCH --job-name=16_09_2022.job
+#SBATCH --output=.out/16_09_2022.out
+#SBATCH --error=.out/16_09_2022.err
+source /home/ec2-user/mambaforge/bin/activate card
+## source /home/ec2-user/tony/source_conda.src
+## source /home/butzer/miniconda3/bin/activate nlcd2
+python3 anim.py 16_09_2022

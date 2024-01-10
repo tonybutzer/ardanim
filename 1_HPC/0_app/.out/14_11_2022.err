@@ -1,0 +1,2 @@
+/home/ec2-user/mambaforge/envs/card/lib/python3.11/site-packages/pystac_client/item_search.py:865: FutureWarning: get_all_items_as_dict() is deprecated, use item_collection_as_dict() instead.
+  warnings.warn(
